@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700&family=Great+Vibes&family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  font-family: 'Fraunces', serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #191311;
+  background-color: #f7f2e8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(circle at 20% 12%, rgba(255, 206, 215, 0.35), transparent 45%),
+    radial-gradient(circle at 80% 6%, rgba(255, 214, 173, 0.28), transparent 40%),
+    radial-gradient(circle at 50% 90%, rgba(189, 215, 214, 0.35), transparent 45%),
+    linear-gradient(180deg, #fbf7ee 0%, #f5eee2 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+}
