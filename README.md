@@ -28,4 +28,4 @@ npm install
 npm run dev
 ```
 
-The frontend expects the API at `http://localhost:3001`. You can override it by setting `VITE_API_URL` in `bouquet-frontend/.env`.
+
