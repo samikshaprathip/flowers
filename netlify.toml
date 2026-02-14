@@ -1,0 +1,7 @@
+[build]
+base = "bouquet-frontend"
+command = "npm run build"
+publish = "dist"
+
+[build.environment]
+VITE_API_BASE = "https://flowers-18go.onrender.com"
